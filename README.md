@@ -1,0 +1,1 @@
+A simple Odin landing page project to practice flexbox 
