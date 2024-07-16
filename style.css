@@ -78,6 +78,7 @@ a {
     font-weight: 900;
     color: #1F2937;
     flex-direction: column;
+    padding: 64px;
 }
 
 .box-container {
@@ -93,7 +94,7 @@ a {
 }
 
 .info-text {
-    width: 100px;
+    width: 150px;
     text-align: center;  
 }
 
@@ -103,5 +104,32 @@ a {
 }
 
 .info-header {
-    padding: 64px;
+    padding-bottom: 64px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 28px;
+    color: #1f2937;
+    font-style: italic;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 300;
+    padding-left: 115px;
+}
+
+.quote-text {
+    width: 750px;
+}
+
+
+.author {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 460px;
+    margin-top: 32px;
 }
