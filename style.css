@@ -134,14 +134,14 @@ a {
     margin-top: 32px;
 }
 
-.footer-wrapper {
+.action-wrapper {
     padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.footer {
+.action {
     background-color: #3882f6;
     display: flex;
     justify-content: space-around;
@@ -151,17 +151,27 @@ a {
     border-radius: 5px; 
 }
 
-.footer-text {
+.action-text {
     color: white;
     font-weight: 600;
 }
 
-.footer-text span {
+.action-text span {
     font-weight: 200;
 }
 
 .sign-up-button {
     border: 1px solid white;
     border-radius: 5px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
