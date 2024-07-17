@@ -133,3 +133,35 @@ a {
     padding-left: 460px;
     margin-top: 32px;
 }
+
+.footer-wrapper {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    width: 800px;
+    border-radius: 5px; 
+}
+
+.footer-text {
+    color: white;
+    font-weight: 600;
+}
+
+.footer-text span {
+    font-weight: 200;
+}
+
+.sign-up-button {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
